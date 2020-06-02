@@ -1,6 +1,8 @@
 .header {
     display: flex;
     align-items: center;
+    width: 100vw;
+    background: white;
 }
 
 .header_menu, .header_buttons {
@@ -30,11 +32,12 @@
     color: #BC9CFF;
     border: 2px solid #BC9CFF;
     background: white;
-    
+    padding: 7px 20px 8px 20px;
 }
 
 .signup {
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
     color: white;
     border: none;
+    margin: 18px 140px 18px 0px;
 }
