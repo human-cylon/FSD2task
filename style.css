@@ -41,3 +41,9 @@
     border: none;
     margin: 18px 140px 18px 0px;
 }
+
+.main {
+    height: 100vh;
+    background-image: url("img/image3.png");
+    background-size: cover;
+}
