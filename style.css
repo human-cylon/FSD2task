@@ -3,7 +3,7 @@
     align-items: center;
 }
 
-.header_menu {
+.header_menu, .header_buttons {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -11,7 +11,30 @@
     line-height: 17px;   
 }
 
-.header_menu a {
+.header_menu a{
     text-decoration: none;
     color: rgba(31, 32, 65, 0.5);
+}
+
+.signin, .signup {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 15px;
+    border-radius: 22px;
+    padding: 9px 20px 10px 20px;
+}
+
+.signin {
+    color: #BC9CFF;
+    border: 2px solid #BC9CFF;
+    background: white;
+    
+}
+
+.signup {
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    color: white;
+    border: none;
 }
