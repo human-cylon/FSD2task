@@ -1,7 +1,9 @@
+body {
+    margin: 0;
+}
+
 .header {
     display: flex;
-    align-items: center;
-    width: 100vw;
     background: white;
 }
 
@@ -10,7 +12,12 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 17px;   
+    line-height: 17px;
+    margin: auto;   
+}
+
+.logo {
+    margin: 15px 0px 15px 140px;
 }
 
 .header_menu a{
@@ -46,4 +53,9 @@
     height: 100vh;
     background-image: url("img/image3.png");
     background-size: cover;
+}
+
+.guest-info {
+    background: white;
+    margin: 20px;
 }
