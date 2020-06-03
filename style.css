@@ -50,12 +50,62 @@ body {
 }
 
 .main {
-    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 90vh;
     background-image: url("img/image3.png");
     background-size: cover;
+    padding: 70px;
 }
 
 .guest-info {
+   
     background: white;
-    margin: 20px;
+    max-width: 380px;
+    padding: 40px 30px 30px 30px;
+}
+
+.slogan {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: rgba(31, 32, 65, 0.75);
+}
+
+.gradient-button {
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 14px 22px 15px 18px;
+}
+
+.find-rooms {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1F2041;
+}
+
+.arrival {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
 }
