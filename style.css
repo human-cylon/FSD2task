@@ -78,7 +78,6 @@ body {
     line-height: 24px;
     text-align: right;
     color: rgba(31, 32, 65, 0.75);
-    max-width: 297px;
 }
 
 .gradient-button {
@@ -123,7 +122,4 @@ body {
     font-weight: normal;
     font-size: 24px;
     line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
 }
